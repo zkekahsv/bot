@@ -8,6 +8,11 @@ print("\n*************************************ex1*******************************
 def print_test():
  print("test!!!!")
 
+def print_test():
+ print("test!!!!")
+
+
+
 # 함수를 호출할 때는 함수 이름과 "()" 를 붙여서 사용하면 된다.
 # 함수는 호출되기 전까지는 구동 하지 않는다.
 print("함수 호출 전")
@@ -62,6 +67,15 @@ def print_test3(x,y):
 print_test3(1,2)
 print_test3(3,4)
 print_test3(5,6)
+
+
+def print_test4(x,y):
+ z= x-y
+ print(z)
+
+print_test4(1,2)
+print_test4(3,4)
+print_test4(5,6)
 
 
 print("\n*************************************ex5*************************************")
